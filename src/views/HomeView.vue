@@ -20,6 +20,7 @@
 
 <script setup lang="ts">
 import { reactive } from "vue";
+import Peer from "peerjs";
 const peer = new Peer();
 
 type infoType = {
